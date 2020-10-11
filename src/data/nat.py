@@ -4,7 +4,7 @@ import numpy as np
 from time import time
 from collections import Counter
 import os
-from xlm.data_loading import load_data
+from loader import load_data
 import regex as re
 from sklearn.feature_extraction import DictVectorizer
 
